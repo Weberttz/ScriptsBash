@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Mensagem de erro....
-msg="É preciso inforaar um comando válido!"
+msg="É preciso informar um comando válido!"
 
 # Teste de quantidade de argumentos....
 
