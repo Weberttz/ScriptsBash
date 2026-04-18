@@ -1,17 +1,19 @@
 #!/usr/bin/env bash
 
+[[ $# -ne 1 ]] && echo "Entre com um novo serviço!" && exit
+
 declare -a servicos
 
-servicos=("ssh", "nginx", "mysql", "forge", "aws")
-
-for (( n = 0; n < 5; n++ )); do
-echo "Ìndice: $n - Serviço: ${servicos[n]}"
-done
+servicos=("ssh" "nginx" "mysql" "forge" "aws")
+servicos+=("$1")
 
 echo ""
 
+contador=1
+
 for servico in "${servicos[@]}"; do
-echo "Serviço: $servico"
+echo "Serviço $contador : $servico"
+(( contador++ ))
 done
 
 echo "Quantidade de serviços: ${#servicos[@]}"
