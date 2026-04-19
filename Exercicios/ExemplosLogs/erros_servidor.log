@@ -1,0 +1,5 @@
+[2024-01-15 07:00:01] ERROR Disco com 92% de uso em /dev/sda1
+[2024-01-15 11:34:18] ERROR Serviço nginx não respondeu após 3 tentativas
+[2024-01-15 13:22:45] ERROR Memória insuficiente: swap ativado
+[2024-01-15 14:05:33] FATAL Processo 4821 encerrado inesperadamente
+[2024-01-15 14:05:34] INFO  Reiniciando serviço automaticamente...

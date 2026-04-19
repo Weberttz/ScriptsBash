@@ -1,0 +1,5 @@
+[2024-01-15 08:25:43] LOGIN  admin        IP: 192.168.1.10  OK
+[2024-01-15 09:10:12] LOGIN  joao.silva   IP: 192.168.1.24  OK
+[2024-01-15 09:48:30] LOGIN  maria.souza  IP: 10.0.0.45     FALHOU
+[2024-01-15 09:48:55] LOGIN  maria.souza  IP: 10.0.0.45     FALHOU
+[2024-01-15 10:15:08] LOGOUT admin        IP: 192.168.1.10  OK
