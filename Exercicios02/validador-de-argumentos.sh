@@ -6,12 +6,12 @@ exit 1
 fi
 
 if [[ -f $1 ]]; then 
-echo "O arquivo já existe!"
+    echo "O arquivo já existe!"
 else
-echo "O arquivo não existe!"
+    echo "O arquivo não existe!"
 fi
 
 if [[ -x $1 ]]; then
-echo "O arquivo é exeutável"
+    echo "O arquivo é exeutável"
 fi
 
