@@ -6,9 +6,14 @@
 
 caminho="./Arquivos/variacoes.txt"
 
+#limpar arquivo
+>$caminho
+
 while read palavra; do
     echo ${palavra} >> $caminho
     echo ${palavra^^} >> $caminho
     echo ${palavra,,} >> $caminho
     echo ${palavra^} >> $caminho
 done < "$1"
+
+echo "O arquivo variacoes.txt foi gerado com sucesso!"

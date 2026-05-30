@@ -6,6 +6,9 @@
 
 caminho="./Arquivos/leet.text"
 
+#limpar arquivo
+>$caminho
+
 while read palavra; do
     echo $palavra >> $caminho
 
@@ -25,3 +28,5 @@ while read palavra; do
     echo $leet >> $caminho;
 
 done < "$1"
+
+echo "O arquivo leet.txt foi gerado com sucesso!"
