@@ -10,10 +10,10 @@ caminho="./Arquivos/variacoes.txt"
 >$caminho
 
 while read palavra; do
-    echo ${palavra} >> $caminho
-    echo ${palavra^^} >> $caminho
-    echo ${palavra,,} >> $caminho
-    echo ${palavra^} >> $caminho
-done < "$1"
+    echo ${palavra} #>> $caminho
+    echo ${palavra^^} #>> $caminho
+    echo ${palavra,,} #>> $caminho
+    echo ${palavra^} #>> $caminho
+done < "$1" >> $caminho
 
 echo "O arquivo variacoes.txt foi gerado com sucesso!"
